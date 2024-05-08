@@ -6,24 +6,25 @@ class Solution1 {
 
   removeElement() {
 
-    let k = 0
+    let k = this.nums.length - 1
+    let i = 0
 
-    for (let i = 0; i < this.nums.length; ++i) {
-      if (this.nums[i] !== this.val) {
-        this.nums[k++] = this.nums[val]
+    while (k > i) {
+      if (nums[i] !== this.val) {
+        i++
+      } else {
+        if (nums[k] !== this.val) {
+          nums[i++] = nums[k--]
+        } else {
+          k--
+        }
       }
     }
   
-    console.log(nums)
-    console.log(k)
-  
-    return nums
+    return this.nums
 
   }
 }
-
-const s1 = new Solution1(nums = [3,2,2,3], val = 3);
-console.log(s1.removeElement()) 
 
 module.exports = {
   Solution1:Solution1

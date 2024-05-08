@@ -19,16 +19,9 @@ class Solution2 {
       }
     }
 
-    console.log(nums)
-    console.log(k)
-
     return this.nums
-
   }
 }
-
-const s2 = new Solution2(nums = [3,2,2,3], val = 3);
-console.log(s2.removeElement()) 
 
 module.exports = {
   Solution2:Solution2

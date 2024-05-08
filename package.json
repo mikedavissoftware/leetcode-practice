@@ -4,11 +4,12 @@
   "description": "As I dive deeper into data structures and algorithms, this is where I will be putting my leetcode practice.",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "29.7.0"
   }
 }
