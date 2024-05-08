@@ -1,0 +1,14 @@
+{
+  "name": "leetcode-practice",
+  "version": "1.0.0",
+  "description": "As I dive deeper into data structures and algorithms, this is where I will be putting my leetcode practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}
