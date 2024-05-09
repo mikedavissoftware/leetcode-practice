@@ -1,16 +1,14 @@
-const Solution1 = require('../src/solution-1').Solution1
-const Solution2 = require('../src/solution-2').Solution2
+const Solution = require('../src/27-s2').Solution
 
-// about 13ms on desktop
-test('Testing Leetcode #27 Solution 1', () => {
-  const s1 = new Solution1(nums = [3,2,2,3], val = 3);
-  console.log(s1.removeElement())
-  expect(s1.removeElement().slice(0,2)).toStrictEqual([2,2]);
+test('27-s1 Test Case 1', () => {
+  const s = new Solution(nums = [3,2,2,3], val = 3)
+  expect(s.removeElement().slice(0,2)).toStrictEqual([2,2])
 });
 
-// about 13ms on desktop
-test('Testing Leetcode #27 Solution 2', () => {
-  const s2 = new Solution2(nums = [3,2,2,3], val = 3);
-  console.log(s2.removeElement())
-  expect(s2.removeElement().slice(0,2)).toStrictEqual([2,2]);
+test('27-s1 Test Case 2', () => {
+  const s = new Solution(nums = [0,1,2,2,3,0,4,2], val = 2)
+  expect(s.removeElement().slice(0,5)).toStrictEqual([0,1,3,0,4])
 });
+
+// 0.155s on desktop
+// 0.000s on laptop

@@ -10,11 +10,11 @@ class Solution {
     let i = 0
 
     while (k > i) {
-      if (nums[i] !== this.val) {
+      if (this.nums[i] !== this.val) {
         i++
       } else {
-        if (nums[k] !== this.val) {
-          nums[i++] = nums[k--]
+        if (this.nums[k] !== this.val) {
+          this.nums[i++] = this.nums[k--]
         } else {
           k--
         }
