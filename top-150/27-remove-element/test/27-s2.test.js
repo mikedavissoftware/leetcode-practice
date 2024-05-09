@@ -1,16 +1,8 @@
 const Solution1 = require('../src/solution-1').Solution1
 const Solution2 = require('../src/solution-2').Solution2
 
-// describe('Testing Leetcode #27', function() {
-//   it('1. Solution 1 Test', function() {
-//     const s1 = new Solution1(nums = [3,2,2,3], val = 3);
-//     expect(s1.removeElement()).to.equal([2,2,2,3])
-//     done()
-//   })
-// })
-
 // about 13ms on desktop
-test.skip('Testing Leetcode #27 Solution 1', () => {
+test('Testing Leetcode #27 Solution 1', () => {
   const s1 = new Solution1(nums = [3,2,2,3], val = 3);
   console.log(s1.removeElement())
   expect(s1.removeElement().slice(0,2)).toStrictEqual([2,2]);

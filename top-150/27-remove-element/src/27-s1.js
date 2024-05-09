@@ -1,4 +1,4 @@
-class Solution1 {
+class Solution {
   constructor(nums, val) {
     this.nums = nums
     this.val = val
@@ -27,5 +27,5 @@ class Solution1 {
 }
 
 module.exports = {
-  Solution1:Solution1
+  Solution:Solution
 }
