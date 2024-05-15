@@ -39,7 +39,7 @@ class Solution {
     }
 
     console.log(nums)
-    console.log(k)
+    // console.log(k)
 
     return nums
     // return k
